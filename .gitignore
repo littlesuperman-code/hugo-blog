@@ -1,0 +1,7 @@
+public/
+.hugo_build.lock
+venv
+.wrangler.toml
+# 忽略环境变量配置文件
+.env
+.DS_Store

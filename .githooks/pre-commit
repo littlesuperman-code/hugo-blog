@@ -1,0 +1,9 @@
+#!/bin/bash
+CHANGED=$(git diff --cached --name-only | grep '^static/images/')
+if [ "$CHANGED" != "" ]; then
+  echo "🖼 发现图片更新，开始同步到 R2..."
+  ./scripts/sync_r2.sh
+  echo "✅ 图片同步完成。"
+else
+  echo "🚫 没有图片改动，跳过同步。"
+fi

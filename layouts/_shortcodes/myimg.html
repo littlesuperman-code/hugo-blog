@@ -1,0 +1,7 @@
+{{/* layouts/shortcodes/myimg.html */}}
+{{- $base := "https://img.littlesuperman.io" -}}
+{{- $src := printf "%s/%s" $base (.Get "src") -}}
+<img src="{{ $src }}"
+     alt="{{ .Get "alt" }}"
+     loading="lazy"
+     class="{{ with .Get "class" }}{{ . }}{{ else }}post-img{{ end }}" />

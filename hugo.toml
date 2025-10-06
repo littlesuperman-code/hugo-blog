@@ -1,0 +1,68 @@
+DefaultContentLanguage = "cn"
+baseURL = "https://blog.littlesuperman.space"
+canonifyURLs = false
+enableRobotsTXT = true
+languageCode = "en-us"
+theme = "yinyang"
+title = "Lift Off"
+disqusShortname = "littlesuperman"
+
+# [related]
+# includeNewer = true
+# threshold = 80
+# toLower = false
+# [[related.indices]]
+# name = "date"
+# weight = 100
+# [[related.indices]]
+# name = "keywords"
+# weight = 100
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+[markup.highlight]
+guessSyntax = true
+noClasses = true
+style = "tango"
+tabWidth = 2
+
+[languages]
+# [languages.en]
+#   contentDir = "content/en"
+#   languageName = "English"
+#   weight = 1
+[languages.cn]
+contentDir = "content/cn"
+languageName = "简体中文"
+weight = 2
+
+[permalinks]
+post = "/blog/:title/"
+
+[params]
+description = "Imagination is the essence of discovery." 
+disqus = "littlesuperman" # disqus account name
+extraHead = '<script async src="https://www.googletagmanager.com/gtag/js?id=G-JYBBXW5RGD"></script>' 
+favicon = "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>" 
+headTitle = "Lift Off 🚀"
+mainSections = ["posts"] 
+postFooterContent = '<br/><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://blog.littlesuperman.space/images/cc.png" /></a>' 
+postHeaderContent = "" 
+lazyImage = true
+
+[params.author]
+homepage = "https://littlesuperman.space"
+name = "littlesuperman"
+
+# [[params.socials]]
+# name = "Telegram"
+# link = "https://t.me/littlesuperman"
+
+#[[params.socials]]
+#link = "/travel"
+#name = "Travel"
+[[params.socials]]
+link = "https://littlesuperman.space"
+name = "About"
