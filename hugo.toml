@@ -45,7 +45,7 @@ post = "/blog/:title/"
 description = "Imagination is the essence of discovery." 
 disqus = "littlesuperman" # disqus account name
 extraHead = '<script async src="https://www.googletagmanager.com/gtag/js?id=G-JYBBXW5RGD"></script>' 
-favicon = "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>" 
+favicon = "favicon.ico" 
 headTitle = "Lift Off 🚀"
 mainSections = ["posts"] 
 postFooterContent = '<br/><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://img.littlesuperman.io/cc.png" /></a>' 
